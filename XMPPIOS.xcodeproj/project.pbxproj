@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6127027E193312E100107A9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 61270280193312E100107A9D /* Default.png */; };
+		6127028A193324C400107A9D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61270289193324C400107A9D /* RootViewController.m */; };
 		8E0A15E517C49D7200041B53 /* XMPPAnonymousAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A14A917C49D7100041B53 /* XMPPAnonymousAuthentication.m */; };
 		8E0A15E617C49D7200041B53 /* XMPPDeprecatedDigestAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A14AC17C49D7100041B53 /* XMPPDeprecatedDigestAuthentication.m */; };
 		8E0A15E717C49D7200041B53 /* XMPPDeprecatedPlainAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0A14AF17C49D7100041B53 /* XMPPDeprecatedPlainAuthentication.m */; };
@@ -146,7 +148,6 @@
 		8E43D11317C49B3900C2D90F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E43D11117C49B3900C2D90F /* InfoPlist.strings */; };
 		8E43D11517C49B3900C2D90F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43D11417C49B3900C2D90F /* main.m */; };
 		8E43D11917C49B3900C2D90F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43D11817C49B3900C2D90F /* AppDelegate.m */; };
-		8E43D11B17C49B3900C2D90F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E43D11A17C49B3900C2D90F /* Default.png */; };
 		8E43D11D17C49B3900C2D90F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E43D11C17C49B3900C2D90F /* Default@2x.png */; };
 		8E43D11F17C49B3900C2D90F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E43D11E17C49B3900C2D90F /* Default-568h@2x.png */; };
 		8E43D12217C49B3900C2D90F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E43D12017C49B3900C2D90F /* MainStoryboard.storyboard */; };
@@ -180,6 +181,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6127027F193312E100107A9D /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/Default.png; sourceTree = "<group>"; };
+		61270288193324C400107A9D /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		61270289193324C400107A9D /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8E0A14A817C49D7100041B53 /* XMPPAnonymousAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPAnonymousAuthentication.h; sourceTree = "<group>"; };
 		8E0A14A917C49D7100041B53 /* XMPPAnonymousAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPAnonymousAuthentication.m; sourceTree = "<group>"; };
 		8E0A14AB17C49D7100041B53 /* XMPPDeprecatedDigestAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPDeprecatedDigestAuthentication.h; sourceTree = "<group>"; };
@@ -443,10 +447,10 @@
 		8E0A166917C49ED900041B53 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8E0A166B17C49FE100041B53 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		8E0A166D17C49FF500041B53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		8E0A167217C4B7E900041B53 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsListViewController.h; path = Class/FriendsListViewController.h; sourceTree = "<group>"; };
-		8E0A167317C4B7E900041B53 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsListViewController.m; path = Class/FriendsListViewController.m; sourceTree = "<group>"; };
-		8E1888D817C61C8300FF2C68 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = Class/ChatViewController.h; sourceTree = "<group>"; };
-		8E1888D917C61C8300FF2C68 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = Class/ChatViewController.m; sourceTree = "<group>"; };
+		8E0A167217C4B7E900041B53 /* FriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FriendsListViewController.h; path = ../Class/FriendsListViewController.h; sourceTree = "<group>"; };
+		8E0A167317C4B7E900041B53 /* FriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FriendsListViewController.m; path = ../Class/FriendsListViewController.m; sourceTree = "<group>"; };
+		8E1888D817C61C8300FF2C68 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ../Class/ChatViewController.h; sourceTree = "<group>"; };
+		8E1888D917C61C8300FF2C68 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ../Class/ChatViewController.m; sourceTree = "<group>"; };
 		8E43D10517C49B3900C2D90F /* XMPPIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMPPIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E43D10817C49B3900C2D90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8E43D10A17C49B3900C2D90F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -457,12 +461,11 @@
 		8E43D11617C49B3900C2D90F /* XMPPIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMPPIOS-Prefix.pch"; sourceTree = "<group>"; };
 		8E43D11717C49B3900C2D90F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8E43D11817C49B3900C2D90F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8E43D11A17C49B3900C2D90F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8E43D11C17C49B3900C2D90F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8E43D11E17C49B3900C2D90F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8E43D12117C49B3900C2D90F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8E43D12317C49B3900C2D90F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8E43D12417C49B3900C2D90F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8E43D12317C49B3900C2D90F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		8E43D12417C49B3900C2D90F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		8E7D245317C72DC200742396 /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
 		8E7D245417C72DC200742396 /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 		8E7D245617C72DC200742396 /* recorder_trash_can0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recorder_trash_can0.png; sourceTree = "<group>"; };
@@ -531,6 +534,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61270282193320FF00107A9D /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				8E7D249917C72F1000742396 /* Base64 */,
+				8E7D245217C72DC200742396 /* amr_wav */,
+				8E0A14A517C49D7100041B53 /* XMPP */,
+			);
+			path = 3rd;
+			sourceTree = "<group>";
+		};
+		61270283193320FF00107A9D /* old */ = {
+			isa = PBXGroup;
+			children = (
+				8E43D12017C49B3900C2D90F /* MainStoryboard.storyboard */,
+				8E43D12317C49B3900C2D90F /* ViewController.h */,
+				8E43D12417C49B3900C2D90F /* ViewController.m */,
+				8E0A167217C4B7E900041B53 /* FriendsListViewController.h */,
+				8E0A167317C4B7E900041B53 /* FriendsListViewController.m */,
+				8E1888D817C61C8300FF2C68 /* ChatViewController.h */,
+				8E1888D917C61C8300FF2C68 /* ChatViewController.m */,
+			);
+			path = old;
+			sourceTree = "<group>";
+		};
+		612702841933243F00107A9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				61270288193324C400107A9D /* RootViewController.h */,
+				61270289193324C400107A9D /* RootViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		612702851933243F00107A9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		612702861933243F00107A9D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		612702871933243F00107A9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8E0A14A517C49D7100041B53 /* XMPP */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,7 +602,8 @@
 				8E0A15AF17C49D7200041B53 /* Utilities */,
 				8E0A15BC17C49D7200041B53 /* Vendor */,
 			);
-			path = XMPP;
+			name = XMPP;
+			path = ../XMPP;
 			sourceTree = "<group>";
 		};
 		8E0A14A617C49D7100041B53 /* Authentication */ = {
@@ -1269,8 +1327,6 @@
 		8E43D0FC17C49B3900C2D90F = {
 			isa = PBXGroup;
 			children = (
-				8E7D249717C72E0C00742396 /* AVFoundation.framework */,
-				8E7D249517C72E0400742396 /* AudioToolbox.framework */,
 				8E43D10E17C49B3900C2D90F /* XMPPIOS */,
 				8E43D10717C49B3900C2D90F /* Frameworks */,
 				8E43D10617C49B3900C2D90F /* Products */,
@@ -1288,6 +1344,8 @@
 		8E43D10717C49B3900C2D90F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E7D249717C72E0C00742396 /* AVFoundation.framework */,
+				8E7D249517C72E0400742396 /* AudioToolbox.framework */,
 				8E0A166D17C49FF500041B53 /* CoreLocation.framework */,
 				8E0A166B17C49FE100041B53 /* SystemConfiguration.framework */,
 				8E0A166917C49ED900041B53 /* CoreData.framework */,
@@ -1305,18 +1363,14 @@
 		8E43D10E17C49B3900C2D90F /* XMPPIOS */ = {
 			isa = PBXGroup;
 			children = (
+				61270282193320FF00107A9D /* 3rd */,
 				8E43D11717C49B3900C2D90F /* AppDelegate.h */,
 				8E43D11817C49B3900C2D90F /* AppDelegate.m */,
-				8E43D12017C49B3900C2D90F /* MainStoryboard.storyboard */,
-				8E43D12317C49B3900C2D90F /* ViewController.h */,
-				8E43D12417C49B3900C2D90F /* ViewController.m */,
-				8E0A167217C4B7E900041B53 /* FriendsListViewController.h */,
-				8E0A167317C4B7E900041B53 /* FriendsListViewController.m */,
-				8E1888D817C61C8300FF2C68 /* ChatViewController.h */,
-				8E1888D917C61C8300FF2C68 /* ChatViewController.m */,
-				8E7D249917C72F1000742396 /* Base64 */,
-				8E7D245217C72DC200742396 /* amr_wav */,
-				8E0A14A517C49D7100041B53 /* XMPP */,
+				612702861933243F00107A9D /* Public */,
+				612702851933243F00107A9D /* Model */,
+				612702871933243F00107A9D /* View */,
+				612702841933243F00107A9D /* Controller */,
+				61270283193320FF00107A9D /* old */,
 				8E43D10F17C49B3900C2D90F /* Supporting Files */,
 			);
 			path = XMPPIOS;
@@ -1329,7 +1383,7 @@
 				8E43D11117C49B3900C2D90F /* InfoPlist.strings */,
 				8E43D11417C49B3900C2D90F /* main.m */,
 				8E43D11617C49B3900C2D90F /* XMPPIOS-Prefix.pch */,
-				8E43D11A17C49B3900C2D90F /* Default.png */,
+				61270280193312E100107A9D /* Default.png */,
 				8E43D11C17C49B3900C2D90F /* Default@2x.png */,
 				8E43D11E17C49B3900C2D90F /* Default-568h@2x.png */,
 			);
@@ -1346,7 +1400,8 @@
 				8E7D246317C72DC200742396 /* VoiceConvert */,
 				8E7D247417C72DC200742396 /* VoiceRecorderVC */,
 			);
-			path = amr_wav;
+			name = amr_wav;
+			path = ../amr_wav;
 			sourceTree = "<group>";
 		};
 		8E7D245517C72DC200742396 /* img */ = {
@@ -1465,7 +1520,8 @@
 				8E7D249C17C72F1000742396 /* NSString+Base64.h */,
 				8E7D249D17C72F1000742396 /* NSString+Base64.m */,
 			);
-			path = Base64;
+			name = Base64;
+			path = ../Base64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1520,7 +1576,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E43D11317C49B3900C2D90F /* InfoPlist.strings in Resources */,
-				8E43D11B17C49B3900C2D90F /* Default.png in Resources */,
+				6127027E193312E100107A9D /* Default.png in Resources */,
 				8E43D11D17C49B3900C2D90F /* Default@2x.png in Resources */,
 				8E43D11F17C49B3900C2D90F /* Default-568h@2x.png in Resources */,
 				8E43D12217C49B3900C2D90F /* MainStoryboard.storyboard in Resources */,
@@ -1609,6 +1665,7 @@
 				8E0A161B17C49D7200041B53 /* XMPPvCardAvatarCoreDataStorageObject.m in Sources */,
 				8E0A161C17C49D7200041B53 /* XMPPvCardCoreDataStorage.m in Sources */,
 				8E0A161D17C49D7200041B53 /* XMPPvCardCoreDataStorageObject.m in Sources */,
+				6127028A193324C400107A9D /* RootViewController.m in Sources */,
 				8E0A161E17C49D7200041B53 /* XMPPvCardTempCoreDataStorageObject.m in Sources */,
 				8E0A161F17C49D7200041B53 /* XMPPvCardTemp.m in Sources */,
 				8E0A162017C49D7200041B53 /* XMPPvCardTempAdr.m in Sources */,
@@ -1690,6 +1747,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		61270280193312E100107A9D /* Default.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6127027F193312E100107A9D /* en */,
+			);
+			name = Default.png;
+			sourceTree = "<group>";
+		};
 		8E43D11117C49B3900C2D90F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1704,6 +1769,7 @@
 				8E43D12117C49B3900C2D90F /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

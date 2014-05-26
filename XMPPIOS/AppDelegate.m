@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @implementation AppDelegate
 @synthesize xmppStream;
@@ -24,6 +25,11 @@
     [[NSUserDefaults standardUserDefaults]removeObjectForKey:kMyJID];
     [[NSUserDefaults standardUserDefaults]removeObjectForKey:kPS];
     [self setupStream];
+    
+    RootViewController *root = [[RootViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 							
